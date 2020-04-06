@@ -1,0 +1,58 @@
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  border: 2px solid lightgrey;
+  border-radius: 2px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.image-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.copy-clipboard {
+  background-color: rgba(240, 240, 240, 0.6);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.5rem;
+}
+
+.copy-clipboard:hover {
+  background-color: rgb(210, 210, 210);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.danger {
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(206, 6, 6);
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 10rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.danger:hover {
+  background-color: rgb(179, 5, 5);
+}

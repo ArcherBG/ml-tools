@@ -1,0 +1,8 @@
+<h4>Results:</h4>
+<div class="results-list">
+  <div *ngFor="let url of urls">
+    {{url}}
+  </div>
+</div>
+<input class="save-button" (click)="onSave()" value="Save as csv">
+<div class="note">*Disable your Adblocker, because download opens a new tab</div>

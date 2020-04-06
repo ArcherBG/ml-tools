@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.submit {
+  background-color:  rgb(51, 159, 224);
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 2px;
+  border: none;
+  height: 2.5rem;
+  width: 15rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit:hover {
+  background-color: rgb(38, 142, 202);
+  cursor: pointer;
+}
+
+/* .submit:active {
+  background-color: rgb(44, 134, 190);
+} */

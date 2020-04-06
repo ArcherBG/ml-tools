@@ -1,0 +1,11 @@
+<h4>Images:</h4>
+
+<div class="gallery-container">
+  <div class="element" *ngFor="let item of items">
+    <div class="image-container">
+      <i class="fa fa-files-o fa-lg copy-clipboard" title="Copy to clipboard" (click)="onCopyUrl(item)"></i>
+      <img src={{item}} alt="Image" />
+    </div>
+      <input class="danger" (click)="onDelete(item)" value="Remove Image" >
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.results-list {
+  margin-bottom: 2rem;
+}
+
+.save-button {
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(29, 197, 6);
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: larger;
+  width: 10rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: rgb(25, 170, 5);
+}
+
+.note {
+  font-size: small;
+  font-style: italic;
+  padding: 0 0.5rem;
+}
