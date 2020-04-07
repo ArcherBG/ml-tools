@@ -2,7 +2,7 @@
 
 A tool for visualizing web scraped images from Google.
 
-
+![Screenshot of app](docs/images/screenshot.png "Screenshot")
 
 ## Run in Development server
 Run `npm run start`
